@@ -2,24 +2,25 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Oswald');
 
 header {
-  borber-top: 9px solid #222;
+  border-top: 9px solid #222222;
 }
 
 h1 {
-  font-family: "Oswald", Helvetica, sans-serif;
+  font-family: "Oswald", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 48px;
   letter-spacing: 1.5px;
 }
 
 h2 {
-  font-family: "Oswald", Helvetica, sans-serif;
+  font-family: "Oswald", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 24px;
  letter-spacing: 1.5px;
   }
 
 hr{
+  border: 2px solid #CCCCCC;
   clear: both;
 }
 
@@ -43,25 +44,39 @@ hr{
     -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
+.footer-blurb {
+  font-family: "EB Garamond", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+}
+
 .links {
   padding-top: 26px;
 }
 
 .links a {
   color: black;
-  font-family: "EB Garamond", serif;
+  font-family: "EB Garamond", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-weight: bold;
   font-size: 25px;
   border-bottom: 1px solid #DFDFDF;
 }
 
+.next-quote {
+  color:#f84342;
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: right;
+}
 
 h2.quote-author {
   font-family: "kingthings_petrockregular", serif;  
 }
 
 .slogan {
-  font-family: "EB Garamond", serif;
+  font-family: "EB Garamond", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
   font-weight: normal;
   padding-top: 26px;
