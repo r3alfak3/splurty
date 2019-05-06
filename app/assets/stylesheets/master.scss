@@ -49,6 +49,8 @@ hr{
   font-size: 12px;
   font-style: italic;
   font-weight: bold;
+  line-height: 14px;
+  margin: 20px 0;
 }
 
 .links {
@@ -63,6 +65,10 @@ hr{
   border-bottom: 1px solid #DFDFDF;
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
 .next-quote {
   color:#f84342;
   font-family: 'EB Garamond', serif;
@@ -72,14 +78,17 @@ hr{
 }
 
 h2.quote-author {
-  font-family: "kingthings_petrockregular", serif;  
+  font-family: "kingthings_petrockregular", serif;
+  margin-right: 35px;
+  text-align: right; 
 }
 
 .slogan {
   font-family: "EB Garamond", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-size: 25px;
   font-style: italic;
   font-weight: normal;
-  padding-top: 26px;
+  padding-top: 36px;
 }
 
 .clear {
