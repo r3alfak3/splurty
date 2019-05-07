@@ -24,6 +24,10 @@ hr{
   clear: both;
 }
 
+.about {
+  font-family: "EB Garamond", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
 .circle {
     font-weight: bold;
     font-style: italic;
@@ -50,7 +54,7 @@ hr{
   font-style: italic;
   font-weight: bold;
   line-height: 14px;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 
 .links {
@@ -73,7 +77,8 @@ hr{
   color:#f84342;
   font-family: 'EB Garamond', serif;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 16px;
+  line-height: 20px;
   text-align: right;
 }
 
