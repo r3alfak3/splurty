@@ -9,7 +9,10 @@ class QuotesController < ApplicationController
   end
 
 def create
-  Quote.create(quote_params)
+  @quote = Quote.create(quote_params)
+    if @quote.invalid?
+      flash[:error] = '<strong>Come on, dude.</strong> Quotes between 3 & 140 characters & author\'s name between 3 & 50 characters.'
+    end  
   redirect_to root_path
 end
 
