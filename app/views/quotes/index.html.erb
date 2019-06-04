@@ -1,11 +1,6 @@
-<h2 class="quote-author">
-  <span>Splurty# <%= @quote.id %></span>
-  Here's the <u>best unsolicited startup advice</u> you can get!
-</h2>
-<h1><%= @quote.saying %></h1>
-<h2 class="quote-author float-right">| <%= @quote.author %> |</h2>
-
-<br class="clear" />
-<br />
-<br />
-<br />
+<div class="col-10 offset-1 col-md-8 offset-md-2 page-bod">
+  <h1 class="quote-author text-center text-md-left gray"><span>Quote# <%= @quote.id %></span></h1>
+  <p class="quote-author text-center text-md-left">Here's the <u>best unsolicited startup advice</u> you can get!</p>
+<h2 class="ap"><%= @quote.saying %></h2>
+<h3 class="quote-author float-right pb-4 ap">| <%= @quote.author %> |</h3>
+</div><br/><br/><br/><br/><br/><br/><br/>
